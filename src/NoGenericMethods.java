@@ -1,9 +1,9 @@
-public class NoGenericMethod {
+public class NoGenericMethods {
     private String obj1;
     private String obj2;
     private String obj3;
 
-    public NoGenericMethod(String obj1, String obj2, String obj3) {
+    public NoGenericMethods(String obj1, String obj2, String obj3) {
         this.obj1 = obj1;
         this.obj2 = obj2;
         this.obj3 = obj3;
@@ -33,9 +33,4 @@ public class NoGenericMethod {
         this.obj3 = obj3;
     }
 
-    public void showContent() {
-        System.out.println("Object 1: " + obj1);
-        System.out.println("Object 2: " + obj2);
-        System.out.println("Object 3: " + obj3);
-    }
 }
